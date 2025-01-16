@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,500&display=swap');
+*{
+  font-family: "Poppins",serif;
+}
+body{
+  height:100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/837/192/small/blue-watercolor-cloudy-blue-sky-background-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weatherBody{
+  min-height: 500px;
+  background: peru;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button{
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #007bff;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroud 0.3s ease;
+
+}
+
+button:hover{
+  background-color: #0056b3;
+}
+
+.values {
+  text-align: center;
+  background-color: white; /* Contrast background for data */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.values img {
+  display: block;
+  margin: 0 auto 20px auto; /* Centers the image */
+  width: 100px;
+  height: 100px;
+}
+
+.values h4 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 18px;
+}
